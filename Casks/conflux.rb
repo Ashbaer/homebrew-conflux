@@ -2,16 +2,16 @@
   # frozen_string_literal: true
 
   cask "conflux" do
-  version "0.2.0"
+  version "0.2.1"
 
     on_intel do
-    sha256 "55e955bc561dda82bbe2cb5deb6a2184f1799633fa8b58639afd68e96b717143"
+    sha256 "636fb2c152ac4b7099b5652007af97d01a23db7637d2e636097bb05650b4e71f"
       url "https://github.com/Ashbaer/conflux-app/releases/download/v#{version}/Conflux_#{version}_x64.dmg",
           verified: "github.com/Ashbaer/conflux-app/"
     end
 
     on_arm do
-    sha256 "78b17c3be1fbcae68ebce44455a20806ecd907a0b97c0c8174f8ba4b5668aaa3"
+    sha256 "6a91619294c166417ddcf0dfa8d51c759e976d0bf1e47af88155053b2b6dff7f"
       url "https://github.com/Ashbaer/conflux-app/releases/download/v#{version}/Conflux_#{version}_aarch64.dmg",
           verified: "github.com/Ashbaer/conflux-app/"
     end
